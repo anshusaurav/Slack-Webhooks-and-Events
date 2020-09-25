@@ -1,0 +1,19 @@
+{
+  "name": "slack-webhooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/events-api": "^2.3.4",
+    "@slack/web-api": "^5.12.0",
+    "@slack/webhook": "^5.0.3",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
